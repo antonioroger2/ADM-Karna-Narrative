@@ -358,13 +358,17 @@ const KarnaEpicSite = () => {
               <div className="absolute left-0 sm:left-1/2 top-0 h-full w-1 bg-amber-700/50 transform sm:-translate-x-1/2"></div>
   
               {[
-                { year: "Before the War", event: "Karna gives away his divine armor and earrings, making himself vulnerable" },
-                { year: "Day 15", event: "Karna uses his divine weapon Vasavi Shakti to kill Ghatotkacha" },
-                { year: "Day 17", event: "Karna becomes commander of the Kaurava army" },
-                { year: "Day 17", event: "The final duel between Karna and Arjuna begins" },
-                { year: "Day 17", event: "Karna's chariot wheel gets stuck in the mud" },
-                { year: "Day 17", event: "Arjuna kills the defenseless Karna with the Anjalikastra" }
-              ].map((item, index) => (
+                  { "year": "Son of the Sun God: Birth and Abandonment", "event": "Karna is born to Kunti and Surya but is abandoned in a river." },
+                  { "year": "Blessed by the Sun, Raised by Mortals", "event": "Karna is found and raised by Adhiratha and Radha, growing up as a charioteer's son." },
+                  { "year": "Gifted Yet Cursed", "event": "Karna trains under Parashurama but is cursed for lying about his caste." },
+                  { "year": "A Warrior Without a Legacy", "event": "Karna is humiliated at the archery competition but is crowned king of Anga by Duryodhana." },
+                  { "year": "A Bond Stronger Than Blood", "event": "Karna becomes Duryodhana's closest ally and pledges loyalty to him." },
+                  { "year": "The Generous Son of Surya", "event": "Karna gives away his divine armor and earrings to Indra, making himself vulnerable." },
+                  { "year": "A Radiant Warrior in Battle", "event": "Karna fights bravely in the Kurukshetra War, killing many warriors, including Ghatotkacha." },
+                  { "year": "The Sun Sets on a King", "event": "Karna becomes the commander of the Kaurava army after Drona's death." },
+                  { "year": "Fate’s Cruel Hand", "event": "Karna and Arjuna engage in a duel, but Karna's chariot wheel gets stuck in the mud." },
+                  { "year": "The Fallen Hero", "event": "Arjuna kills Karna using the Anjalikastra while he is defenseless." }
+                ].map((item, index) => (
                 <motion.div 
                   key={index}
                   initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
